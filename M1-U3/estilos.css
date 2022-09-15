@@ -1,3 +1,37 @@
 h1{
-    color: red;
+    color:darkcyan;
+    font-family:sans-serif;
+}
+
+h3{
+    color:rgb(168, 207, 208);
+    background-color: rgb(63, 100, 136);
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.resaltado{
+    font-size: 18px;
+    color: indigo;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.caja{
+    
+    background-color: lightblue;
+    width: 300px;
+    border: solid 3px rgb(141, 178, 224);
+    padding: 3px;
+    margin: 3px;
+}
+
+ol{
+    font-size: 16px;
+    color: brown;
+    background-color:burlywood;
 }
