@@ -1,0 +1,39 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    border:5px solid black;
+    justify-content: space-between;
+}
+
+.cajaRoja{
+    display: flex;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaAzul{
+    display: flex;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaVerde{
+    display: flex;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
