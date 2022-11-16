@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercico 1a</title>
+</head>
+
+<body>
+    <script>
+        var dist = parseInt(prompt('Ingrese distancia: '))
+        
+        switch (true) {
+            case dist>0 && dist <= 1000: alert(`El medio de transporte adecuado para ${dist}m es a pie`)
+                break
+            case dist>1000 && dist <= 10000: alert(`El medio de transporte adecuado para ${dist}m es en bicicleta`)
+                break
+            case dist>10000 && dist <= 30000: alert(`El medio de transporte adecuado para ${dist}m es en colectivo`)
+                break
+            case dist>30000 && dist <= 100000: alert(`El medio de transporte adecuado para ${dist}m es en auto`)
+                break
+            case dist > 100000: alert(`El medio de transporte adecuado para ${dist}m es en avión`)
+                break
+            default: alert('El valor ingresado no es válido')
+        }
+    </script>
+</body>
+
+</html>

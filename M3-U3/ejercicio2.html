@@ -1,0 +1,35 @@
+<!-- Ejericio 2
+    Crear el código que reciba como parámetro un array de números y devuelva el mayor. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <script>
+        var nums =[];
+        var num;
+        
+        while(num!=="x"){
+            num=(prompt("Ingrese un número o ingrese x para terminar"))
+            nums.push (parseInt(num))
+        } 
+        nums.pop(nums.length-1)
+
+        var max=null
+        for (let i = 0; i < nums.length; i++) {
+            if (nums[i] > max) {
+                max = nums[i];
+            }
+        }
+        document.write(`El mayor valor es ${max}`)
+    </script>
+</body>
+
+</html>

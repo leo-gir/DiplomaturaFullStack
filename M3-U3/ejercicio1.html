@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <script>
+        var dist = parseInt(prompt('Ingrese distancia: '))
+        if (dist>0 && dist <= 1000) {
+            document.write(`El medio de transporte adecuado para ${dist}m es a pie`)
+        }
+        else if (dist>1000 && dist <= 10000) {
+            document.write(`El medio de transporte adecuado para ${dist}m es en bicicleta`)
+        }
+        else if (dist>10000 && dist <= 30000) {
+            document.write(`El medio de transporte adecuado para ${dist}m es en colectivo`)
+        }
+        else if (dist>30000 && dist <= 100000) {
+            document.write(`El medio de transporte adecuado para ${dist}m es en auto`)
+            console.log(`El medio de transporte adecuado para ${dist}m es en avión`)
+        }
+        else if (dist > 100000) {
+            document.write(`El medio de transporte adecuado para ${dist}m es en avión`)
+        }
+        else{
+            document.write('El valor ingresado no es válido')
+        }
+  
+    </script>
+</body>
+
+</html>
+
+<!--Ejericio 1
+    Crear el código que dada una distancia determine el medio de transporte apropiado de acuerdo a las siguientes reglas:
+    0 a 1000 metros = pie
+    1000 a 10000 metros = bicicleta
+    10000 a 30000 metros = colectivo
+    30000 a 100000 metros = auto
+    +100000 = avion -->
